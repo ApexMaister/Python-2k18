@@ -3,10 +3,10 @@
 numero= input("Introdueix un numero:    ")
 
 
-if (numero % 2):
-
-    print "par"
-
-else:
+if (numero % 2 == 0):
 
     print "impar "
+
+else:
+    
+    print "par"
