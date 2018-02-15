@@ -9,10 +9,14 @@ divisor=input("Escriba el divisor: ")
 resto= dividendo % divisor
 cociente= dividendo / divisor
 
-if ( resto==0 ):
+if (divisor==0)
 
-    print ("La división es exacta. Cociente:", cociente)
+    print "no se puede"
+else:    
+    if ( resto==0 ):
 
-else:
+        print ("La división es exacta. Cociente:", cociente)
 
-    print("La division no es exacta. Cociente:", cociente , "Resto" , resto)
+    else:
+
+        print("La division no es exacta. Cociente:", cociente , "Resto" , resto)
