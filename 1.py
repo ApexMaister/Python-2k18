@@ -9,7 +9,7 @@ divisor=input("Escriba el divisor: ")
 resto= dividendo % divisor
 cociente= dividendo / divisor
 
-if (divisor==0)
+if (divisor==0):
 
     print "no se puede"
 else:    
