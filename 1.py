@@ -6,13 +6,15 @@
 dividendo=input("Escriba el dividendo:  ")
 divisor=input("Escriba el divisor: ")
 
-resto= dividendo % divisor
-cociente= dividendo / divisor
+
 
 if (divisor==0):
 
     print "no se puede"
-else:    
+else:   
+    resto= dividendo % divisor
+    cociente= dividendo / divisor
+   
     if ( resto==0 ):
 
         print ("La división es exacta. Cociente:", cociente)
