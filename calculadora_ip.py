@@ -3,41 +3,58 @@ import os
 
 os.system('clear')
 
+print """
 
-netmask= raw_input("Introdueix la netmask   (/1-8):   ")
+        #############################
+        #       Calculadora IP      #
+        #############################
 
-if netmask == "/0" :
+        1- netmask
+        2- Wildcard
 
-    print "Invalid"
+"""
 
-elif netmask == "/1" :
+opcion == ("Introduce una Opcion:  ")
 
-    print "128"
 
-elif netmask == "/2":
+if opcion ==1 :
 
-    print "192"
+    netmask= raw_input("Introdueix la netmask   (/1-8):   ")
 
-elif netmask == "/3":
+    if netmask == "/0" :
 
-    print "224"
+        print "Invalid"
 
-elif netmask == "/4":
+    elif netmask == "/1" :
 
-    print "240"
+        print "128"
 
-elif netmask == "/5":
+    elif netmask == "/2":
 
-    print "248"
+        print "192"
 
-elif netmask == "/6":
+    elif netmask == "/3":
 
-    print "252"
+        print "224"
 
-elif netmask == "/7":
+    elif netmask == "/4":
 
-    print "254"
+        print "240"
 
-elif netmask == "/8":
+    elif netmask == "/5":
 
-    print "255"
+        print "248"
+
+    elif netmask == "/6":
+
+        print "252"
+
+    elif netmask == "/7":
+
+        print "254"
+
+    elif netmask == "/8":
+
+        print "255"
+
+if opcion == 2 :
