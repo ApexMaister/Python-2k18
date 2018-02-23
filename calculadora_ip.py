@@ -9,7 +9,7 @@ print """
         #       Calculadora IP      #
         #############################
 
-        1- netmask
+        1- Netmask
         2- Wildcard
 
 """
@@ -58,3 +58,16 @@ if opcion ==1 :
         print "255"
 
 if opcion == 2 :
+
+    wildcard = input ("Introdueix la netmask:  ")
+
+    if wildcard == "/1"
+        print "127.255.255.255"
+
+    elif wildcard == "/2"
+        print "63.255.255.255 "
+
+    elif wildcard == "/3"
+        print "31.255.255.255"
+
+    elif wildcard == "/"
