@@ -130,7 +130,7 @@ if opcion == 1 :
 
 if opcion == 2 :
 
-    wildcard = input ("Introdueix la netmask per saber la wildcard:  (/1-24):   ")
+    wildcard = raw_input ("Introdueix la netmask per saber la wildcard:  (/1-24):   ")
 
 
     if wildcard == "/0" :
