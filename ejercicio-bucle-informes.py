@@ -11,6 +11,6 @@ while ( salir=="N" ):
     anyo = anyo + 1
 #Indicador de salida
 
-    if (anyo >2004):
+    if (anyo >2012):
 
         salir = "S"
