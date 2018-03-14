@@ -1,30 +1,26 @@
-#coding: utf­8
-import os
-os.system ("clear")
+#coding: utf-8
 
-# Inicializaciones
 salir = "N"
-
-suma= 1
-
-resultat=0
-
-while ( salir=="N" ):
-   # Hago cosas
+numero=1
+maximo = 5
+suma = 0
 
 
-# Incremento
-    if (suma % 2 == 0):
-        print suma ,"+"
-        resultat = resultat + suma
+while (salir == "N"):
+    if(numero%2==0):
 
-    suma = suma + 1
+        print numero ,
 
+        if(numero<maximo-2):
 
+            print "+",
 
-   # Activo indicador de salida si toca
-    if ( resultat >=40):
+        suma=suma+numero
 
-# Condición de salida
-        print "=",resultat
-        salir = "S"
+    numero=numero+1
+
+    if(numero>maximo):
+
+        salir="S"
+
+print "=",suma
